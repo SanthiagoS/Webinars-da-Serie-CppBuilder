@@ -1,1 +1,324 @@
+=========================================================
+GUIA DE IMPLEMENTAÇÃO - Webinar 1 - PROJETO SATELLITE TELEMETRY
+C++Builder + Rocky Linux + InfluxDB
+=========================================================
 
+## Obrigado pela sua presença em nosso 1 Webinar em C++ Builder - 04/2026 ##
+
+Antes de prosseguir, dá aquela força nos seguindo!!
+https://sam-cpp.wordpress.com/
+https://www.linkedin.com/in/thiago-santos-8b91b4b7/
+https://www.youtube.com/@tsanthiago
+
+
+OBJETIVO
+---------------------------------------------------------
+Criar um ambiente completo para simulação e visualização de telemetria de satélite em tempo real.
+
+Arquitetura:
+
+[ Rocky Linux ]
+   -> Simulador Satellite (C++)
+   -> InfluxDB
+
+[ Windows ]
+   -> Aplicação C++Builder 13.1 Florence FMX
+   -> Dashboard 3D + Telemetria
+
+=========================================================
+1. CRIAÇÃO DA MÁQUINA VIRTUAL
+=========================================================
+
+Recomendado:
+- VirtualBox / VMware / Hyper-V
+
+Configuração mínima:
+- 2 vCPU
+- 4 GB RAM
+- 30 GB Disco
+- Rede Bridge ou NAT
+
+Sistema Operacional:
+- Rocky Linux 9.x
+
+=========================================================
+2. PREPARAÇÃO DO LINUX
+=========================================================
+
+Atualizar sistema:
+
+sudo dnf update -y
+
+Instalar ferramentas:
+
+sudo dnf install nano wget curl gcc-c++ git -y
+
+=========================================================
+3. INSTALAÇÃO DO INFLUXDB
+=========================================================
+
+Adicionar repositório oficial e instalar.
+
+Após instalação:
+
+sudo systemctl enable influxdb
+sudo systemctl start influxdb
+
+Verificar status:
+
+sudo systemctl status influxdb
+
+=========================================================
+4. ACESSO WEB DO INFLUX
+=========================================================
+
+Abrir navegador:
+
+http://IP_DO_SERVIDOR:8086
+
+Criar:
+
+- Usuário administrador
+- Organização: iot-lab
+- Bucket: sensores_test
+
+=========================================================
+5. GERAR TOKEN
+=========================================================
+
+No painel do InfluxDB:
+
+Load Data -> API Tokens
+
+Criar token com permissão:
+
+- Read
+- Write
+
+Salvar token para usar no projeto.
+
+=========================================================
+6. LIBERAR FIREWALL
+=========================================================
+
+sudo firewall-cmd --add-port=8086/tcp --permanent
+sudo firewall-cmd --reload
+
+=========================================================
+7. CRIAR SIMULADOR SATELLITE (ROCKY)
+=========================================================
+
+Arquivo:
+satellite.cpp
+
+Responsável por gerar:
+
+- Latitude
+- Longitude
+- Movimento orbital
+
+Compilar:
+
+g++ satellite.cpp -o satellite -std=c++17
+
+Executar:
+
+./satellite
+
+=========================================================
+8. ENVIO DOS DADOS PARA O INFLUX
+=========================================================
+
+O simulador envia no formato Line Protocol:
+
+satellite lat=10.25,lon=20.50
+
+Via CURL para:
+
+http://IP:8086/api/v2/write
+
+
+=========================================================
+9. TESTAR RECEBIMENTO
+=========================================================
+
+No InfluxDB Data Explorer:
+
+from(bucket:"sensores_test")
+  |> range(start: -5m)
+
+Se aparecer lat/lon, ambiente OK.
+
+=========================================================
+10. PARTE WINDOWS - C++BUILDER FLORENCE
+=========================================================
+
+Recomendado:
+- RAD Studio / C++Builder 13+
+
+Framework:
+- FMX (FireMonkey)
+
+=========================================================
+11. COMPONENTES PRINCIPAIS
+=========================================================
+
+3D:
+- Viewport3D
+- Sphere (Terra)
+- Sphere (Satélite)
+- Light
+- Camera
+- Dummy objects
+
+UI:
+- Labels
+- Timers
+- Panels
+- Switch
+
+=========================================================
+12. FUNÇÕES PRINCIPAIS NO PROJETO
+=========================================================
+
+BuscarTelemetria()
+---------------------------------------------------------
+Consulta InfluxDB via HTTP e retorna CSV com dados.
+
+
+AtualizarTelemetriaAsync()
+---------------------------------------------------------
+Executa consulta em background.
+Evita travamento da interface.
+
+
+Parse (Tratamento de Dados)
+---------------------------------------------------------
+Lê resposta CSV e separa:
+
+- lat
+- lon
+
+Converte texto em número.
+
+
+UpdateSatellitePosition(lat, lon)
+---------------------------------------------------------
+Converte latitude e longitude em posição 3D:
+
+X
+Y
+Z
+
+Move o satélite na cena.
+
+
+timerTelemetry
+---------------------------------------------------------
+Consulta novos dados periodicamente.
+
+
+timerAnimation
+---------------------------------------------------------
+Atualiza animação visual:
+
+- rotação Terra
+- órbita
+- trilha
+
+=========================================================
+13. EFEITOS VISUAIS OPCIONAIS - Todos commentados no código
+=========================================================
+
+- Fundo estrelado (imagem NASA)
+- Atmosfera azul
+- Brilho
+- Rastro orbital
+- Rotação contínua da Terra
+
+=========================================================
+14. FLUXO FINAL DO SISTEMA
+=========================================================
+
+1. Linux inicia InfluxDB
+2. Simulador ./satellite envia dados
+3. C++Builder consulta API
+4. Parse trata dados
+5. Satélite move no globo 3D
+6. Dashboard exibe telemetria
+
+=========================================================
+15. PORTAS UTILIZADAS
+=========================================================
+
+8086 = InfluxDB
+
+=========================================================
+16. !!POSSÍVEIS ERROS E SOLUÇÕES!!
+=========================================================
+
+Sem conexão:
+- verificar firewall
+- verificar IP
+- verificar token
+
+Sem dados:
+- confirmar ./satellite em execução
+
+Tela travando:
+- usar modo Async
+
+Sem animação:
+- validar timers ativos
+
+=========================================================
+17. RESULTADO
+=========================================================
+
+Ambiente completo de demonstração para:
+
+- IoT
+- Telemetria
+- Dashboard 3D
+- Integração C++ com APIs
+- Projetos corporativos
+
+=========================================================
+18. ARQUIVO .OBJ (MODELO 3D)
+=========================================================
+
+O projeto pode usar arquivos .OBJ para substituir formas
+simples por modelos 3D realistas.
+
+Exemplos:
+- Satélite
+- Foguete
+- Estação espacial
+
+Uso no C++Builder:
+Componente TModel3D
+
+Propriedade do componente:
+SourceLink = satellite.obj
+
+Ou via código:
+LoadFromFile("satellite.obj");
+
+Vantagens:
+- Visual profissional
+- Mais realismo
+- Melhor apresentação
+
+Arquivos comuns:
+- .obj = modelo
+- .mtl = material
+- .png/.jpg = textura
+
+=========================================================
+
+Te espero no próximo Webinar!! Sugira um novo conteúdo e nos siga nas redes sociais!!
+Até lá!!
+
+Thiago Santos - MVP Embarcadero - 2026.
+
+=========================================================
