@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{0C690D53-89F9-4404-9346-F9369FC53175}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="prjVCLEsp32.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\CPP_FMX_ESP32\prjFMX_CPP_Esp32.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\CPP_WebStencils_Esp32\WebStencils.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="prjVCLEsp32">
+        <MSBuild Projects="prjVCLEsp32.cbproj"/>
+    </Target>
+    <Target Name="prjVCLEsp32:Clean">
+        <MSBuild Projects="prjVCLEsp32.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="prjVCLEsp32:Make">
+        <MSBuild Projects="prjVCLEsp32.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="prjFMX_CPP_Esp32">
+        <MSBuild Projects="..\CPP_FMX_ESP32\prjFMX_CPP_Esp32.cbproj"/>
+    </Target>
+    <Target Name="prjFMX_CPP_Esp32:Clean">
+        <MSBuild Projects="..\CPP_FMX_ESP32\prjFMX_CPP_Esp32.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="prjFMX_CPP_Esp32:Make">
+        <MSBuild Projects="..\CPP_FMX_ESP32\prjFMX_CPP_Esp32.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="WebStencils">
+        <MSBuild Projects="..\CPP_WebStencils_Esp32\WebStencils.cbproj"/>
+    </Target>
+    <Target Name="WebStencils:Clean">
+        <MSBuild Projects="..\CPP_WebStencils_Esp32\WebStencils.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="WebStencils:Make">
+        <MSBuild Projects="..\CPP_WebStencils_Esp32\WebStencils.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="prjVCLEsp32;prjFMX_CPP_Esp32;WebStencils"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="prjVCLEsp32:Clean;prjFMX_CPP_Esp32:Clean;WebStencils:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="prjVCLEsp32:Make;prjFMX_CPP_Esp32:Make;WebStencils:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
