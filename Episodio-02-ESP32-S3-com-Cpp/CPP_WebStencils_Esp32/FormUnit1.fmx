@@ -1,0 +1,63 @@
+object Form1: TForm1
+  Left = 271
+  Top = 114
+  Caption = 'Form1'
+  ClientHeight = 236
+  ClientWidth = 400
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop, iPhone, iPad]
+  OnCreate = FormCreate
+  Left = 271
+  Top = 114
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    Position.X = 18.000000000000000000
+    Position.Y = 82.000000000000000000
+    Size.Width = 40.000000000000000000
+    Size.Height = 13.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Port'
+    TabOrder = 4
+  end
+  object ButtonStart: TButton
+    Position.X = 18.000000000000000000
+    Position.Y = 34.000000000000000000
+    Size.Width = 75.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'Start'
+    OnClick = ButtonStartClick
+  end
+  object ButtonStop: TButton
+    Position.X = 105.000000000000000000
+    Position.Y = 34.000000000000000000
+    Size.Width = 75.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Stop'
+    OnClick = ButtonStopClick
+  end
+  object EditPort: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Text = '8080'
+    Position.X = 45.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 21.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object ButtonOpenBrowser: TButton
+    Position.X = 24.000000000000000000
+    Position.Y = 112.000000000000000000
+    Size.Width = 107.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = 'Open Browser'
+    OnClick = ButtonOpenBrowserClick
+  end
+end
