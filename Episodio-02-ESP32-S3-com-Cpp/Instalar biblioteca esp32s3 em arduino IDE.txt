@@ -1,0 +1,50 @@
+Como instalar o esp32-s3-wroom1 em Arduino IDE.
+
+Para a compilação em uma placa do modelo esp32-s3-wroom1 no Arduino IDE é necessário que ela reconheça o dispositivo (na porta) com a descrição DEV MODULE.
+
+- Baixar o Arduino IDE pelo link direto da fabricante, conforme seu processador no link https://www.arduino.cc/en/software
+- Depois de baixar e instalar, abra a IDE.
+- File -> Preferences
+- Clique no botão Additional Boards Manager URLs: https://espressif.github.io/arduino-esp32/package_esp32_index.json. ou https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+- Clique em OK para fechar a tela do link.
+- Clique em OK para fechar a tela do Preferences.
+- Acesse menu Tool -> Board -> Board Manager...
+- Procure por esp32-> Install esp32 Board.
+- Localize e baixe o esp32 - by Espressif Systems.
+- Acesse menu File -> Example -> 01.Basics -> Blink. Vai abrir o projeto.
+- Mude o código de: Setup() e loop()
+
+Em setup()...
+pinMode(LED_BUILTIN, OUTPUT) para pinMode(43, OUTPUT); 
+
+Em loop()...
+digitalWrite(LED_BUILTIN, HIGH) para digitalWrite(43, HIGH);
+digitalWrite(LED_BUILTIN, LOW) para digitalWrite(43, LOW);
+
+(isso porque vamos usar o led da propria placa, abaixo do botão BOOT para testar.)  
+- Aperte o botão (BOOT) enquanto "espeta" o cabo USB.  
+- Coloque o cabo USB na placa, do lado esquerdo. Depois que colocar o cabo, solte o botão BOOT.
+- Acesse o menu Tools -> Board -> ESP32S3 DEV MODULE
+- Selecione a porta COM;
+- Clique em Upload Code (enviar ao esp32).
+- Clique no botão RESET da placa esp32s3.
+- Verá o LED piscar (led central dos 3 em paralelo).
+- Você pode mudar a porta no código (de 43 para 44) e dar upload no codigo. Verá que acenderá o ultimo LED dos 3 em paralelo (cor azul).
+
+INSTALAÇÃO DE BIBLIOTECAS NECESSÁRIAS PARA O PROJETO SENSORES:
+#include <WiFi.h> -> NÃO PRECISA;
+#include <ESPAsyncWebServer.h> -> PRECISA;
+#include <DHT.h> -> PRECISA;
+#include <NewPing.h> -> PRECISA;
+Acesse: Rascunho (sketch) -> → Incluir Biblioteca → Gerenciar Bibliotecas...
+Pesquise: ESPAsyncWebServer, AsyncTCP, DHT sensor library (instale Adafruit), Adafruit Unified Sensor, NewPing. Instale todas estas.
+
+Depois certifique-se:
+- Preferencias -> no campo URLs adicionais para Gerenciadores de Placas adicione https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+- Ferramentas -> Placas -> Gerenciador de Placas, pesquise esp32 e instale ESP32 by Espressif Systems.
+
+Caso apareça o erro ESPAsyncWebServer.h: No such file or directory, a biblioteca não foi corretamente instalada.
+
+
+
+                                              
