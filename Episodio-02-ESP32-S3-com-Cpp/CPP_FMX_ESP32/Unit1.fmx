@@ -1,0 +1,615 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'FMX Smart IoT Dashboard'
+  ClientHeight = 668
+  ClientWidth = 1290
+  Fill.Color = x000B1020
+  Fill.Kind = Solid
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object RectBackground: TRectangle
+    Align = Client
+    Fill.Color = claBlack
+    Size.Width = 1290.000000000000000000
+    Size.Height = 668.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object RecTop: TRectangle
+      Align = Top
+      Fill.Color = claDarkslategray
+      Size.Width = 1290.000000000000000000
+      Size.Height = 70.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object LayoutCentral: TLayout
+        Align = Right
+        Padding.Left = 20.000000000000000000
+        Padding.Top = 20.000000000000000000
+        Padding.Right = 20.000000000000000000
+        Padding.Bottom = 20.000000000000000000
+        Margins.Top = 15.000000000000000000
+        Position.X = -110.000000000000000000
+        Position.Y = 15.000000000000000000
+        Size.Width = 1400.000000000000000000
+        Size.Height = 55.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object LblStatus: TLabel
+          Anchors = [akTop, akRight]
+          StyledSettings = [Family, Style]
+          Position.X = 1110.000000000000000000
+          Position.Y = 2.000000000000000000
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.FontColor = claLime
+          Text = #9679' CONECTADO'
+          TabOrder = 0
+        end
+        object LblIP: TLabel
+          Anchors = [akTop, akRight]
+          StyledSettings = [Family, Style]
+          Position.X = 1110.000000000000000000
+          Position.Y = 27.000000000000000000
+          Size.Width = 223.000000000000000000
+          Size.Height = 20.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          Text = 'IP: '
+          TabOrder = 1
+        end
+      end
+      object LblSubtitulo: TLabel
+        StyledSettings = [Family, Style]
+        Position.X = 30.000000000000000000
+        Position.Y = 40.000000000000000000
+        Size.Width = 249.000000000000000000
+        Size.Height = 26.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 15.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = 'ESP32 - Automa'#231#227'o e Sensores'
+        TabOrder = 1
+      end
+      object LblTitulo: TLabel
+        StyledSettings = [Family]
+        Position.X = 30.000000000000000000
+        Position.Y = 2.000000000000000000
+        Size.Width = 427.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 24.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+        Text = 'PAINEL SMART HOME'
+        TabOrder = 0
+      end
+    end
+    object VertScrollBox1: TVertScrollBox
+      Align = Client
+      Size.Width = 1290.000000000000000000
+      Size.Height = 598.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      AutoHide = False
+      ShowScrollBars = False
+      Viewport.Width = 1290.000000000000000000
+      Viewport.Height = 598.000000000000000000
+      object LayoutMain: TLayout
+        Align = Top
+        Size.Width = 1290.000000000000000000
+        Size.Height = 900.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object RectControles: TRectangle
+          Align = Top
+          Fill.Color = claMidnightblue
+          Margins.Left = 20.000000000000000000
+          Margins.Top = 20.000000000000000000
+          Margins.Right = 20.000000000000000000
+          Position.X = 20.000000000000000000
+          Position.Y = 337.000000000000000000
+          Size.Width = 1250.000000000000000000
+          Size.Height = 240.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Color = claDodgerblue
+          XRadius = 25.000000000000000000
+          YRadius = 25.000000000000000000
+          object GlowEffect5: TGlowEffect
+            Softness = 0.800000011920929000
+            GlowColor = claDodgerblue
+            Opacity = 0.300000011920929000
+          end
+          object Label5: TLabel
+            StyledSettings = [Family]
+            Position.X = 30.000000000000000000
+            Position.Y = 20.000000000000000000
+            Size.Width = 267.000000000000000000
+            Size.Height = 21.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 24.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claDodgerblue
+            Text = 'CONTROLES'
+            TabOrder = 0
+          end
+          object FlowLayoutSensores2: TLayout
+            Align = Client
+            Padding.Left = 20.000000000000000000
+            Padding.Top = 50.000000000000000000
+            Margins.Left = 20.000000000000000000
+            Margins.Right = 20.000000000000000000
+            Size.Width = 1210.000000000000000000
+            Size.Height = 240.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            object CardLED: TRectangle
+              Fill.Color = claDarkgoldenrod
+              Margins.Right = 20.000000000000000000
+              Margins.Bottom = 20.000000000000000000
+              Position.X = 20.000000000000000000
+              Position.Y = 70.000000000000000000
+              Size.Width = 197.000000000000000000
+              Size.Height = 140.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Color = claGold
+              XRadius = 20.000000000000000000
+              YRadius = 20.000000000000000000
+              object GlowEffect6: TGlowEffect
+                Softness = 0.699999988079071000
+                GlowColor = claGold
+                Opacity = 0.400000005960464500
+              end
+              object Label6: TLabel
+                StyledSettings = [Family]
+                Position.X = 25.000000000000000000
+                Position.Y = 18.000000000000000000
+                TextSettings.Font.Size = 20.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                TextSettings.FontColor = claGold
+                Text = #55357#56481' LED'
+                TabOrder = 0
+              end
+              object SwitchLED: TSwitch
+                IsChecked = False
+                Position.X = 34.000000000000000000
+                Position.Y = 70.000000000000000000
+                Scale.X = 1.500000000000000000
+                Scale.Y = 1.500000000000000000
+                StyleLookup = 'switchstyle'
+                TabOrder = 1
+                OnSwitch = SwitchLEDSwitch
+              end
+            end
+            object CardRele1: TRectangle
+              Fill.Color = claDarkslateblue
+              Margins.Right = 20.000000000000000000
+              Margins.Bottom = 20.000000000000000000
+              Position.X = 237.000000000000000000
+              Position.Y = 70.000000000000000000
+              Size.Width = 197.000000000000000000
+              Size.Height = 140.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Color = claDodgerblue
+              XRadius = 20.000000000000000000
+              YRadius = 20.000000000000000000
+              object GlowEffect7: TGlowEffect
+                Softness = 0.699999988079071000
+                GlowColor = claDodgerblue
+                Opacity = 0.400000005960464500
+              end
+              object Label7: TLabel
+                StyledSettings = [Family]
+                Position.X = 25.000000000000000000
+                Position.Y = 18.000000000000000000
+                TextSettings.Font.Size = 20.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                TextSettings.FontColor = claDodgerblue
+                Text = #55357#56588' REL'#201' 1'
+                TabOrder = 0
+              end
+              object SwitchRele1: TSwitch
+                IsChecked = False
+                Position.X = 50.000000000000000000
+                Position.Y = 70.000000000000000000
+                Scale.X = 1.500000000000000000
+                Scale.Y = 1.500000000000000000
+                StyleLookup = 'switchstyle'
+                TabOrder = 1
+                OnSwitch = SwitchRele1Switch
+              end
+            end
+            object CardRele2: TRectangle
+              Fill.Color = claDarkslateblue
+              Margins.Right = 20.000000000000000000
+              Margins.Bottom = 20.000000000000000000
+              Position.X = 454.000000000000000000
+              Position.Y = 72.000000000000000000
+              Size.Width = 197.000000000000000000
+              Size.Height = 140.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Color = claDodgerblue
+              XRadius = 20.000000000000000000
+              YRadius = 20.000000000000000000
+              object GlowEffect8: TGlowEffect
+                Softness = 0.699999988079071000
+                GlowColor = claDodgerblue
+                Opacity = 0.400000005960464500
+              end
+              object Label8: TLabel
+                StyledSettings = [Family]
+                Position.X = 25.000000000000000000
+                Position.Y = 18.000000000000000000
+                TextSettings.Font.Size = 20.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                TextSettings.FontColor = claDodgerblue
+                Text = #55357#56588' REL'#201' 2'
+                TabOrder = 0
+              end
+              object SwitchRele2: TSwitch
+                IsChecked = False
+                Position.X = 50.000000000000000000
+                Position.Y = 70.000000000000000000
+                Scale.X = 1.500000000000000000
+                Scale.Y = 1.500000000000000000
+                StyleLookup = 'switchstyle'
+                TabOrder = 1
+                OnSwitch = SwitchRele2Switch
+              end
+            end
+            object CardBuzzer: TRectangle
+              Fill.Color = claDarkred
+              Margins.Right = 20.000000000000000000
+              Margins.Bottom = 20.000000000000000000
+              Position.X = 906.000000000000000000
+              Position.Y = 70.000000000000000000
+              Size.Width = 197.000000000000000000
+              Size.Height = 140.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Color = claRed
+              object GlowEffect9: TGlowEffect
+                Softness = 0.400000005960464500
+                GlowColor = claRed
+                Opacity = 0.899999976158142100
+              end
+              object BtnBuzzer: TSpeedButton
+                StyledSettings = []
+                Position.X = 19.000000000000000000
+                Position.Y = 60.000000000000000000
+                Size.Width = 150.000000000000000000
+                Size.Height = 50.000000000000000000
+                Size.PlatformDefault = False
+                Text = #55357#56586' ACIONAR'
+                TextSettings.Font.Size = 18.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                TextSettings.FontColor = claWhite
+                OnClick = BtnBuzzerClick
+              end
+              object Label10: TLabel
+                StyledSettings = [Family]
+                Position.X = 33.000000000000000000
+                Position.Y = 20.000000000000000000
+                TextSettings.Font.Size = 20.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                TextSettings.FontColor = claGray
+                Text = 'BUZZER'
+                TabOrder = 0
+              end
+            end
+            object Rectangle1: TRectangle
+              Fill.Color = claDarkslateblue
+              Margins.Right = 20.000000000000000000
+              Margins.Bottom = 20.000000000000000000
+              Position.X = 671.000000000000000000
+              Position.Y = 72.000000000000000000
+              Size.Width = 197.000000000000000000
+              Size.Height = 140.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Color = claDodgerblue
+              XRadius = 20.000000000000000000
+              YRadius = 20.000000000000000000
+              object GlowEffect10: TGlowEffect
+                Softness = 0.699999988079071000
+                GlowColor = claDodgerblue
+                Opacity = 0.400000005960464500
+              end
+              object Label9: TLabel
+                StyledSettings = [Family]
+                Position.X = 25.000000000000000000
+                Position.Y = 18.000000000000000000
+                TextSettings.Font.Size = 20.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                TextSettings.FontColor = claDodgerblue
+                Text = #55357#56588' REL'#201' 3'
+                TabOrder = 0
+              end
+              object Switch1: TSwitch
+                IsChecked = False
+                Position.X = 50.000000000000000000
+                Position.Y = 70.000000000000000000
+                Scale.X = 1.500000000000000000
+                Scale.Y = 1.500000000000000000
+                StyleLookup = 'switchstyle'
+                TabOrder = 1
+                OnSwitch = SwitchRele2Switch
+              end
+            end
+          end
+        end
+        object FlowLayoutSensores: TLayout
+          Align = Top
+          Padding.Left = 10.000000000000000000
+          Padding.Top = 10.000000000000000000
+          Size.Width = 1290.000000000000000000
+          Size.Height = 317.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object CardTemperatura: TRectangle
+            Fill.Color = claMidnightblue
+            Margins.Left = 20.000000000000000000
+            Margins.Right = 20.000000000000000000
+            Position.X = 20.000000000000000000
+            Position.Y = 32.000000000000000000
+            Size.Width = 293.000000000000000000
+            Size.Height = 265.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Color = claOrange
+            XRadius = 25.000000000000000000
+            YRadius = 25.000000000000000000
+            object GlowEffect1: TGlowEffect
+              Softness = 0.800000011920929000
+              GlowColor = claOrange
+              Opacity = 0.400000005960464500
+            end
+            object Label1: TLabel
+              StyledSettings = [Family]
+              Position.X = 25.000000000000000000
+              Position.Y = 20.000000000000000000
+              Size.Width = 192.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 18.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              TextSettings.FontColor = claOrange
+              Text = #55356#57121#65039' TEMPERATURA'
+              TabOrder = 0
+            end
+            object LblTemperatura: TLabel
+              StyledSettings = [Family]
+              Position.X = 80.000000000000000000
+              Position.Y = 120.000000000000000000
+              Size.Width = 139.000000000000000000
+              Size.Height = 59.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 56.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              TextSettings.FontColor = claWhite
+              Text = '26'#176'C'
+              TabOrder = 1
+            end
+          end
+          object CardProximidade: TRectangle
+            Fill.Color = claMidnightblue
+            Margins.Left = 20.000000000000000000
+            Margins.Right = 20.000000000000000000
+            Position.X = 340.000000000000000000
+            Position.Y = 32.000000000000000000
+            Size.Width = 293.000000000000000000
+            Size.Height = 265.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Color = claDodgerblue
+            XRadius = 25.000000000000000000
+            YRadius = 25.000000000000000000
+            object GlowEffect2: TGlowEffect
+              Softness = 0.800000011920929000
+              GlowColor = claDodgerblue
+              Opacity = 0.400000005960464500
+            end
+            object Label2: TLabel
+              StyledSettings = [Family]
+              Position.X = 25.000000000000000000
+              Position.Y = 20.000000000000000000
+              Size.Width = 192.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 18.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              TextSettings.FontColor = claDodgerblue
+              Text = #55357#56527' PROXIMIDADE'
+              TabOrder = 0
+            end
+            object lblProximidade: TLabel
+              StyledSettings = [Family]
+              Position.X = 80.000000000000000000
+              Position.Y = 120.000000000000000000
+              Size.Width = 169.000000000000000000
+              Size.Height = 59.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 56.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              TextSettings.FontColor = claWhite
+              Text = '38 cm'
+              TabOrder = 1
+            end
+          end
+          object CardPotenciometro: TRectangle
+            Fill.Color = claMidnightblue
+            Margins.Left = 20.000000000000000000
+            Margins.Right = 20.000000000000000000
+            Position.X = 662.000000000000000000
+            Position.Y = 32.000000000000000000
+            Size.Width = 293.000000000000000000
+            Size.Height = 265.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Color = claBlueviolet
+            XRadius = 25.000000000000000000
+            YRadius = 25.000000000000000000
+            object GlowEffect3: TGlowEffect
+              Softness = 0.800000011920929000
+              GlowColor = claBlueviolet
+              Opacity = 0.400000005960464500
+            end
+            object Label3: TLabel
+              StyledSettings = [Family]
+              Position.X = 25.000000000000000000
+              Position.Y = 20.000000000000000000
+              Size.Width = 192.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 18.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              TextSettings.FontColor = claBlueviolet
+              Text = #55356#57243#65039' POTENCI'#212'METRO'
+              TabOrder = 0
+            end
+            object lblPotenciometro: TLabel
+              StyledSettings = [Family]
+              Position.X = 80.000000000000000000
+              Position.Y = 120.000000000000000000
+              Size.Width = 169.000000000000000000
+              Size.Height = 59.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 56.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              TextSettings.FontColor = claWhite
+              Text = '1820'
+              TabOrder = 1
+            end
+          end
+          object CardPresenca: TRectangle
+            Fill.Color = claMidnightblue
+            Margins.Left = 20.000000000000000000
+            Margins.Right = 20.000000000000000000
+            Position.X = 975.000000000000000000
+            Position.Y = 32.000000000000000000
+            Size.Width = 293.000000000000000000
+            Size.Height = 265.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Color = claLimegreen
+            XRadius = 25.000000000000000000
+            YRadius = 25.000000000000000000
+            object GlowEffect4: TGlowEffect
+              Softness = 0.800000011920929000
+              GlowColor = claLimegreen
+              Opacity = 0.400000005960464500
+            end
+            object Label4: TLabel
+              StyledSettings = [Family]
+              Position.X = 25.000000000000000000
+              Position.Y = 20.000000000000000000
+              Size.Width = 192.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 18.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              TextSettings.FontColor = claLimegreen
+              Text = #55357#57014' PRESEN'#199'A'
+              TabOrder = 0
+            end
+            object lblPresenca: TLabel
+              StyledSettings = [Family]
+              Position.X = 64.000000000000000000
+              Position.Y = 120.000000000000000000
+              Size.Width = 169.000000000000000000
+              Size.Height = 59.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 56.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              TextSettings.FontColor = claWhite
+              Text = 'ATIVO'
+              TabOrder = 1
+            end
+          end
+        end
+      end
+    end
+  end
+  object Timer1: TTimer
+    Enabled = False
+    OnTimer = Timer1Timer
+    Left = 608
+    Top = 24
+  end
+  object pnelIPServer: TPanel
+    Align = Center
+    Size.Width = 462.000000000000000000
+    Size.Height = 97.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object ToolBar1: TToolBar
+      Size.Width = 462.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Label11: TLabel
+        Align = Client
+        StyledSettings = [Family, FontColor]
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Size.Width = 422.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        Text = 'Servidor:'
+        TabOrder = 0
+      end
+    end
+    object Label12: TLabel
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 24.000000000000000000
+      Position.Y = 48.000000000000000000
+      Size.Width = 170.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      Text = 'Informe o IP do ESP32:'
+      TabOrder = 1
+    end
+    object edtIP: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 2
+      KeyboardType = NumbersAndPunctuation
+      TextSettings.Font.Size = 15.000000000000000000
+      Position.X = 202.000000000000000000
+      Position.Y = 48.000000000000000000
+      Size.Width = 135.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = '127.0.0.1'
+      StyledSettings = [Family, FontColor]
+    end
+    object Button1: TButton
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 354.000000000000000000
+      Position.Y = 45.000000000000000000
+      Size.Width = 88.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = 'Conectar'
+      TextSettings.Font.Size = 15.000000000000000000
+      OnClick = Button1Click
+    end
+    object GlowEffect11: TGlowEffect
+      Softness = 0.800000011920929000
+      GlowColor = claAqua
+      Opacity = 0.400000005960464500
+    end
+  end
+  object NetHTTPClient1: TNetHTTPClient
+    UserAgent = 'Embarcadero URI Client/1.0'
+    Left = 424
+    Top = 24
+  end
+  object IdTCPClient1: TIdTCPClient
+    ConnectTimeout = 0
+    Port = 0
+    ReadTimeout = -1
+    Left = 520
+    Top = 24
+  end
+end
