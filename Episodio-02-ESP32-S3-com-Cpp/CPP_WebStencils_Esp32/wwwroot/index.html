@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ESP32 Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+ <!-- PANEL CONEXÃO -->
+    <div id="panelConnect">
+
+       <div class="connect-box">
+
+        <h2>Informe o IP do ESP32</h2>
+
+        <input
+            type="text"
+            id="ip"
+            placeholder="192.168.0.50">
+
+        <button id="btnConectar">
+            OK
+        </button>
+
+        <p id="statusConexao"></p>
+
+    </div>
+
+</div>
+
+    </div>
+
+
+    <!-- DASHBOARD -->
+    <div id="painelSensores">
+
+  
+
+    
+<div class="topbar">
+
+<h1>SMART HOME</h1>
+<p class="subtitle">
+ESP32 &#8226; Automa&ccedil;&atilde;o &#8226; Sensores &#8226; C++Builder
+</p>
+
+<div class="status-area">
+
+<div class="status">
+&#9679; CONECTADO
+</div>
+
+<div class="ip">
+<span id="ipServidor">
+    ESP32: ---
+</span>
+</div>
+
+</div>
+
+</div>
+
+<div class="dashboard">
+
+<div class="card temperatura">
+
+<h2>&#127777; TEMPERATURA</h2>
+
+<div class="gauge">
+
+<svg width="220" height="220">
+
+<circle
+class="bg"
+cx="110"
+cy="110"
+r="90"
+/>
+
+<circle
+class="progress temp-progress"
+cx="110"
+cy="110"
+r="90"
+/>
+
+</svg>
+
+<div
+class="gauge-text"
+id="temperatura"
+>
+
+0&deg;C
+
+</div>
+
+</div>
+
+</div>
+
+<div class="card proximidade">
+
+<h2>&#128225; PROXIMIDADE</h2>
+
+<div class="radar">
+
+<div class="pulse"></div>
+
+<div
+class="radar-value"
+id="proximidade"
+>
+
+0 cm
+
+</div>
+
+</div>
+
+</div>
+
+<div class="card potenciometro">
+
+<h2>&#127911; POTENCIOMETRO</h2>
+
+<div class="progress-container">
+
+<div
+class="progress-bar"
+id="pot-bar"
+>
+
+</div>
+
+</div>
+
+<div
+class="pot-value"
+id="potenciometro"
+>
+
+0
+
+</div>
+
+</div>
+
+<div class="card presenca">
+<h2>&#128694; PRESEN&Ccedil;A</h2>
+<div class="valor" id="presenca">--</div>
+</div>
+
+</div>
+
+<div class="controles">
+
+
+<div class="controle-card">
+
+<h3>&#128161; LED</h3>
+
+<label class="switch">
+<input type="checkbox" onchange="toggleLED(this)">
+<span class="slider"></span>
+</label>
+
+</div>
+
+<div class="controle-card">
+
+<h3>&#128268; RELE 1</h3>
+
+<label class="switch">
+<input type="checkbox" onchange="toggleRele(1,this)">
+<span class="slider"></span>
+</label>
+
+</div>
+
+<div class="controle-card">
+
+<h3>&#128268; RELE 2</h3>
+
+<label class="switch">
+<input type="checkbox" onchange="toggleRele(2,this)">
+<span class="slider"></span>
+</label>
+
+</div>
+
+<div class="controle-card">
+
+<h3>&#128268; RELE 3</h3>
+
+<label class="switch">
+<input type="checkbox" onchange="toggleRele(3,this)">
+<span class="slider"></span>
+</label>
+
+</div>
+
+<div class="controle-card buzzer-card">
+
+<h3>&#128266; BUZZER</h3>
+
+<button class="buzzer-btn"
+onclick="acionarBuzzer()">
+
+ACIONAR
+
+</button>
+
+</div>
+
+</div>
+
+
+<!-- <div id="offlineOverlay">
+
+<div class="offline-box">
+
+</div>
+
+
+<h1>SERVIDOR OFFLINE</h1>
+
+<p>
+Aguardando reconex&atilde;o com WebBroker...
+</p>
+
+</div> -->
+
+</div>
+
+<script src="app.js"></script>
+
+<audio
+    id="hoverSound"
+    src="audio/hover.mp3"
+    preload="auto">
+</audio>
+
+<audio
+    id="offlineSound"
+    src="audio/offline.mp3"
+    preload="auto">
+</audio>
+
+<audio
+    id="clickSound"
+    src="audio/click.mp3"
+    preload="auto">
+</audio>
+
+<script>
+
+let ESP32_IP = "";
+
+// BOTÃO OK
+document
+.getElementById("btnConectar")
+.addEventListener("click", conectarESP32);
+
+
+// FUNÇÃO CONECTAR
+async function conectarESP32()
+{
+    // PEGA IP
+    const ip =
+        document.getElementById("ip").value;
+
+    // STATUS
+    const status =
+        document.getElementById("statusConexao");
+
+    status.innerHTML = "Conectando...";
+
+    try
+    {
+        // TESTA /ping
+        const resposta =
+            await fetch(`http://${ip}/ping`);
+
+        const texto =
+            await resposta.text();
+
+        // VALIDOU
+        if(texto == "OK")
+        {
+            ESP32_IP = ip;
+
+            status.innerHTML =
+                "ESP32 ONLINE";
+
+            // ESCONDE LOGIN
+            document
+            .getElementById("panelConnect")
+            .style.display = "none";
+
+            // MOSTRA DASHBOARD
+            document
+            .getElementById("painelSensores")
+            .style.display = "block";
+
+            // ATUALIZA TEXTO IP
+            document
+            .getElementById("ipServidor")
+            .innerHTML = "ESP32: " + ip;
+
+            // INICIA LEITURA
+            iniciarSensores();
+        }
+        else
+        {
+            status.innerHTML =
+                "Servidor inválido";
+        }
+    }
+    catch(e)
+    {
+        status.innerHTML =
+            "ESP32 OFFLINE";
+    }
+}
+
+
+// FUNÇÃO SENSORES
+function iniciarSensores()
+{
+    console.log("Sensores iniciados");
+}
+
+</script>
+
+
+
+
+
+</body>
+</html>
