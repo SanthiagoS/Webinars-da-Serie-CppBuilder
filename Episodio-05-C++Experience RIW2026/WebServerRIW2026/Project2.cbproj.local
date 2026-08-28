@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2026/07/08 10:04:18.000.536,=C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2026/07/08 10:04:18.000.497,=C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>2026/07/08 10:04:32.000.367,=C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>2026/07/08 10:04:32.000.028,=C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2026/07/13 13:52:10.000.668,=C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\FormUnit1.cpp</Transaction>
+    <Transaction>2026/07/13 13:52:11.000.472,=C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>2026/07/13 13:52:11.000.365,=C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.cpp</Transaction>
+    <Transaction>2026/07/13 13:52:42.000.941,C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\FormUnit1.cpp=C:\Users\thiago.silva\Desktop\RIW2026 - Projeto\C++BuilderProject\WebServerRIW2026\FormUnit1.cpp</Transaction>
+    <Transaction>2026/07/13 13:52:42.000.941,C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\FormUnit1.h=C:\Users\thiago.silva\Desktop\RIW2026 - Projeto\C++BuilderProject\WebServerRIW2026\FormUnit1.h</Transaction>
+    <Transaction>2026/07/13 13:52:42.000.963,C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.h=C:\Users\thiago.silva\Desktop\RIW2026 - Projeto\C++BuilderProject\WebServerRIW2026\WebModuleUnit1.h</Transaction>
+    <Transaction>2026/07/13 13:52:42.000.987,C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Project2.cbproj=C:\Users\thiago.silva\Desktop\RIW2026 - Projeto\C++BuilderProject\WebServerRIW2026\Project2.cbproj</Transaction>
+    <Transaction>2026/07/13 13:52:42.000.974,C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Project2PCH1.h=C:\Users\thiago.silva\Desktop\RIW2026 - Projeto\C++BuilderProject\WebServerRIW2026\Project2PCH1.h</Transaction>
+    <Transaction>2026/07/13 13:52:42.000.963,C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.dfm=C:\Users\thiago.silva\Desktop\RIW2026 - Projeto\C++BuilderProject\WebServerRIW2026\WebModuleUnit1.dfm</Transaction>
+    <Transaction>2026/07/13 13:52:42.000.941,C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\FormUnit1.fmx=C:\Users\thiago.silva\Desktop\RIW2026 - Projeto\C++BuilderProject\WebServerRIW2026\FormUnit1.fmx</Transaction>
+    <Transaction>2026/07/13 13:52:42.000.963,C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.cpp=C:\Users\thiago.silva\Desktop\RIW2026 - Projeto\C++BuilderProject\WebServerRIW2026\WebModuleUnit1.cpp</Transaction>
+    <Transaction>2026/07/13 13:52:49.000.548,C:\Users\thiago.silva\Desktop\RIW2026 - Projeto\C++BuilderProject\WebServerRIW2026\Project2.cbproj=C:\Users\thiago.silva\Desktop\RIW2026 - Projeto\C++BuilderProject\WebServerRIW2026\Project2.cbproj</Transaction>
+    <Transaction>2026/07/14 14:17:42.000.605,=C:\Users\thiago.silva\Desktop\RIW2026 - Projeto\C++BuilderProject\WebServerRIW2026\Unit1.cpp</Transaction>
+    <Transaction>2026/07/14 14:18:27.000.772,C:\Users\thiago.silva\Desktop\RIW2026 - Projeto\C++BuilderProject\WebServerRIW2026\SerialManagerUnit.h=C:\Users\thiago.silva\Desktop\RIW2026 - Projeto\C++BuilderProject\WebServerRIW2026\Unit1.h</Transaction>
+    <Transaction>2026/07/14 14:18:27.000.772,C:\Users\thiago.silva\Desktop\RIW2026 - Projeto\C++BuilderProject\WebServerRIW2026\SerialManagerUnit.cpp=C:\Users\thiago.silva\Desktop\RIW2026 - Projeto\C++BuilderProject\WebServerRIW2026\Unit1.cpp</Transaction>
+    <Transaction>2026/07/14 14:18:27.000.772,C:\Users\thiago.silva\Desktop\RIW2026 - Projeto\C++BuilderProject\WebServerRIW2026\SerialManagerUnit.dfm=C:\Users\thiago.silva\Desktop\RIW2026 - Projeto\C++BuilderProject\WebServerRIW2026\Unit1.dfm</Transaction>
+    <Transaction>2026/07/14 16:43:13.000.051,=C:\Users\thiago.silva\Desktop\RIW2026 - Projeto\C++BuilderProject\WebServerRIW2026\Unit1.cpp</Transaction>
+    <Transaction>2026/07/14 16:45:07.000.758,C:\Users\thiago.silva\Desktop\RIW2026 - Projeto\C++BuilderProject\WebServerRIW2026\NativeSerialManager.cpp=C:\Users\thiago.silva\Desktop\RIW2026 - Projeto\C++BuilderProject\WebServerRIW2026\Unit1.cpp</Transaction>
+    <Transaction>2026/07/14 16:45:07.000.758,C:\Users\thiago.silva\Desktop\RIW2026 - Projeto\C++BuilderProject\WebServerRIW2026\NativeSerialManager.h=C:\Users\thiago.silva\Desktop\RIW2026 - Projeto\C++BuilderProject\WebServerRIW2026\Unit1.h</Transaction>
+  </Transactions>
+</BorlandProject>
