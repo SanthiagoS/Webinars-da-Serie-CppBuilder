@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="icon" href="data:,">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#03101f" />
+  <title>TSX Labs — Gerenciamento de Shields</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="aurora aurora-a"></div>
+  <div class="aurora aurora-b"></div>
+
+  <main class="app-shell">
+    <header class="topbar glass">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">
+          <span></span><span></span><span></span><span></span>
+        </div>
+        <div>
+          <div class="brand-title"><strong>TSX</strong> LABS</div>
+          <div class="brand-subtitle">C++ HARDWARE EXPERIENCE</div>
+        </div>
+      </div>
+
+      <div class="page-title">
+        <h1>GERENCIAMENTO DE SHIELDS</h1>
+        <p>Configure e gerencie os módulos conectados às suas placas</p>
+      </div>
+
+      <div class="connection-cluster">
+        <div class="connection-status"><span class="status-dot pulse"></span><span id="connectionLabel">Conectado</span></div>
+        <label class="select-wrap">
+          <select id="portSelect">
+             <option value="">Aguardando dispositivo</option>
+          </select>
+        </label>
+        <!-- <button class="btn btn-primary" id="connectBtn">
+          <span class="btn-icon">↯</span><span>Desconectar</span>
+        </button> -->
+      </div>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar glass">
+        <section>
+          <div class="sidebar-label">NAVEGAÇÃO</div>
+          <nav class="nav-list">
+            <button class="nav-item active"><span class="icon-grid"></span>Dashboard</button>
+            <button class="nav-item"><span class="icon-plug">⌁</span>Dispositivos</button>
+            <button class="nav-item "><span class="icon-cpu">⌘</span>Shields</button>
+            <button class="nav-item"><span class="icon-monitor">▣</span>Monitor Serial</button>
+            <button class="nav-item"><span class="icon-ai">▦</span>Mural</button>
+            <button class="nav-item"><span class="icon-ai">♙</span>Sobre Mim</button>
+       
+          </nav>
+        </section>
+
+        <section class="device-panel">
+  <div class="sidebar-label">DISPOSITIVO ATIVO</div>
+
+  <div class="device-card">
+    <div class="device-visual">
+      <img
+        id="activeDeviceImage"
+        src="assets/esp32s3.png"
+        alt="Dispositivo ativo"
+      />
+
+      <div class="scan-line"></div>
+    </div>
+          <div class="device-info">
+  <h3 id="activeDeviceName">
+    Nenhum dispositivo
+  </h3>
+
+  <p id="activeDeviceId">
+    -
+  </p>
+
+  <div class="online-line">
+    <span
+      class="status-dot"
+      id="activeDeviceStatusDot">
+    </span>
+
+    <span id="activeDeviceStatus">
+      Aguardando
+    </span>
+  </div>
+
+  <p>
+    Firmware:
+    <span id="activeDeviceFirmware">
+      -
+    </span>
+  </p>
+
+  <p>
+    Protocolo:
+    <span id="activeDeviceProtocol">
+      -
+    </span>
+  </p>
+</div>
+            <button class="btn btn-secondary btn-full" id="deviceDetailsBtn">Ver Detalhes</button>
+          </div>
+        </section>
+      </aside>
+
+      <section class="content">
+        <section class="metrics-grid">
+          <article class="metric-card glass cyan">
+            <div class="stat-subtitle" id="activeDevicesLabel">Nenhum dispositivo</div>
+            <div class="stat-value" id="activeDevicesCount"></div>
+            
+
+            <div class="metric-orb">⌘</div>
+            <div class="progress"><span style="--value:67%"></span></div>
+          </article>
+          <article class="metric-card glass green">
+            <div><span class="metric-label">CONSUMO ATUAL</span><strong><span id="currentConsumption">320</span> <em>mA</em></strong><small>de 500 mA (<span id="consumptionPercent">64</span>%)</small></div>
+            <div class="metric-orb">ϟ</div>
+            <div class="progress"><span id="consumptionBar" style="--value:64%"></span></div>
+          </article>
+          <article class="metric-card glass purple">
+            <div><span class="metric-label">TEMPERATURA</span><strong><span id="temperature">28.4</span> <em>°C</em></strong><small id="temperatureStatus">Normal</small></div>
+            <div class="metric-orb">♨</div>
+            <div class="progress"><span style="--value:59%"></span></div>
+          </article>
+          <article class="metric-card glass amber">
+            <div><span class="metric-label">ÚLTIMA ATUALIZAÇÃO</span><strong id="lastTime">10:24:36</strong><small id="lastDate">08/05/2025</small></div>
+            <div class="metric-orb">◷</div>
+            <div class="progress"><span style="--value:61%"></span></div>
+          </article>
+        </section>
+
+        <section class="shields-section">
+          <div class="section-header">
+            
+          <section
+  id="dashboardDevicesSection"
+  class="dashboard-devices-section">
+
+  <div class="dashboard-section-header">
+    <div>
+      <h2>DISPOSITIVOS CONECTADOS</h2>
+      <p>
+        Placas identificadas pelo C++Builder em tempo real
+      </p>
+    </div>
+
+    <span
+      class="dashboard-device-count"
+      id="dashboardDeviceCount">
+      0 dispositivos
+    </span>
+  </div>
+
+  <div
+    class="dashboard-device-grid"
+    id="dashboardDeviceGrid">
+  </div>
+
+</section>
+            <h2 id="connectedShieldsTitle">
+               SHIELDS CONECTADOS
+            </h2>
+            
+            <div
+                id="deviceCapabilitiesPanel"
+                class="device-capabilities-panel">
+            </div>  
+            <section
+  id="gallerySection"
+  class="gallery-fullscreen"
+  style="display: none;"
+>           
+
+  <header class="gallery-live-header">
+
+    <button
+      type="button"
+      class="gallery-back-btn"
+      id="galleryBackBtn"
+    >
+      ← Voltar ao painel
+    </button>
+
+    <div class="gallery-brand">
+      <span class="gallery-brand-small">
+        C++ EXPERIENCE
+      </span>
+
+      <strong>
+        Mural do Evento
+      </strong>
+    </div>
+
+    <div class="gallery-live-badge">
+      <span></span>
+      AO VIVO
+    </div>
+
+  </header>
+
+
+  <div class="gallery-live-content">
+
+    <div class="gallery-days">
+
+      <button
+        class="gallery-day"
+        data-gallery-date="2026-08-04"
+      >
+        <span>04</span>
+        <small>AGO</small>
+      </button>
+
+      <button
+        class="gallery-day"
+        data-gallery-date="2026-08-05"
+      >
+        <span>05</span>
+        <small>AGO</small>
+      </button>
+
+      <button
+        class="gallery-day"
+        data-gallery-date="2026-08-06"
+      >
+        <span>06</span>
+        <small>AGO</small>
+      </button>
+
+      <button
+        class="gallery-day"
+        data-gallery-date="2026-08-07"
+      >
+        <span>07</span>
+        <small>AGO</small>
+      </button>
+
+    </div>
+
+
+    <section class="gallery-photo-area">
+
+      <div class="gallery-section-title">
+        <span>📷</span>
+
+        <div>
+          <strong>
+            Momentos do Evento
+          </strong>
+
+          <small>
+            Fotos registradas durante o C++ Experience
+          </small>
+        </div>
+
+        <span
+          id="galleryPhotosCount"
+          class="gallery-total"
+        >
+          0 registros
+        </span>
+      </div>
+
+
+      <div
+        id="galleryPhotosCarousel"
+        class="gallery-photo-stage"
+      >
+
+        <div class="gallery-photo-empty">
+          <span>📷</span>
+
+          <strong>
+            Aguardando os primeiros momentos...
+          </strong>
+
+          <small>
+            As fotos deste dia aparecerão automaticamente.
+          </small>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section class="gallery-signature-area">
+
+      <div class="gallery-signature-heading">
+
+        <div>
+          <span>✍</span>
+
+          <strong>
+            Deixe sua marca
+          </strong>
+        </div>
+
+        <span
+          id="gallerySignaturesCount"
+          class="gallery-total"
+        >
+          0 registros
+        </span>
+
+      </div>
+
+
+      <div
+        id="gallerySignaturesCarousel"
+        class="gallery-signature-strip"
+      >
+      </div>
+
+    </section>
+
+  </div>
+
+</section>
+
+          <div 
+              class="shield-grid" 
+              id="defaultShieldGrid">
+            <div id="dynamicCapabilityGrid"></div>
+            <article class="shield-card active-card glass" data-name="LED Shield" data-consumption="80">
+              <div class="card-glow"></div>
+              <div class="shield-head"><h3>LED Shield</h3><span class="state active"><i></i>Ativo</span><label class="switch"><input type="checkbox" checked><span></span></label></div>
+              <div class="shield-body">
+                <div class="hardware-img"><img src="assets/led-shield.png" alt="LED Shield"><span class="image-glow"></span></div>
+                <div class="shield-copy"><p>Controle de LEDs RGB individuais.</p><p>Pinos: D2, D3, D4, D5</p><p>Consumo: 80 mA</p><div class="actions"><button class="btn btn-secondary configure-btn">⚙ Configurar</button><button class="btn btn-dark test-btn">▷ Testar</button></div></div>
+              </div>
+            </article>
+
+            <article class="shield-card active-card glass" data-name="Sensor Shield" data-consumption="60">
+              <div class="card-glow"></div>
+              <div class="shield-head"><h3>Sensor Shield</h3><span class="state active"><i></i>Ativo</span><label class="switch"><input type="checkbox" checked><span></span></label></div>
+              <div class="shield-body">
+                <div class="hardware-img"><img src="assets/sensor-shield.png" alt="Sensor Shield"><span class="image-glow"></span></div>
+                <div class="shield-copy"><p>Leitura de temperatura e umidade.</p><p>Pino: D6</p><p>Consumo: 60 mA</p><div class="actions"><button class="btn btn-secondary configure-btn">⚙ Configurar</button><button class="btn btn-dark test-btn">▷ Testar</button></div></div>
+              </div>
+            </article>
+
+            <article class="shield-card active-card glass" data-name="Relay Shield" data-consumption="120">
+              <div class="card-glow"></div>
+              <div class="shield-head"><h3>Relay Shield</h3><span class="state active"><i></i>Ativo</span><label class="switch"><input type="checkbox" checked><span></span></label></div>
+              <div class="shield-body">
+                <div class="hardware-img"><img src="assets/relay-shield.png" alt="Relay Shield"><span class="image-glow"></span></div>
+                <div class="shield-copy"><p>Controle de relés para automação.</p><p>Pinos: D7, D8, D9</p><p>Consumo: 120 mA</p><div class="actions"><button class="btn btn-secondary configure-btn">⚙ Configurar</button><button class="btn btn-dark test-btn">▷ Testar</button></div></div>
+              </div>
+            </article>
+
+            <article class="shield-card active-card glass" data-name="Display OLED" data-consumption="40">
+              <div class="card-glow"></div>
+              <div class="shield-head"><h3>Display OLED</h3><span class="state active"><i></i>Ativo</span><label class="switch"><input type="checkbox" checked><span></span></label></div>
+              <div class="shield-body">
+                <div class="hardware-img"><img src="assets/oled-shield.png" alt="Display OLED"><span class="image-glow"></span></div>
+                <div class="shield-copy"><p>Display OLED 128×64 pixels.</p><p>Pinos: SDA, SCL</p><p>Consumo: 40 mA</p><div class="actions"><button class="btn btn-secondary configure-btn">⚙ Configurar</button><button class="btn btn-dark test-btn">▷ Testar</button></div></div>
+              </div>
+            </article>
+
+            <article class="shield-card glass inactive-card" data-name="Motor Shield" data-consumption="90">
+              <div class="card-glow"></div>
+              <div class="shield-head"><h3>Motor Shield</h3><span class="state"><i></i>Inativo</span><label class="switch"><input type="checkbox"><span></span></label></div>
+              <div class="shield-body">
+                <div class="hardware-img"><img src="assets/motor-shield.png" alt="Motor Shield"><span class="image-glow"></span></div>
+                <div class="shield-copy"><p>Controle de motores DC / Stepper.</p><p>Pinos: D10, D11</p><p>Consumo: 0 mA</p><div class="actions align-end"><button class="btn btn-secondary activate-btn">Ativar</button></div></div>
+              </div>
+            </article>
+
+            <article class="shield-card glass inactive-card" data-name="Buzzer Shield" data-consumption="35">
+              <div class="card-glow"></div>
+              <div class="shield-head"><h3>Buzzer Shield</h3><span class="state"><i></i>Inativo</span><label class="switch"><input type="checkbox"><span></span></label></div>
+              <div class="shield-body">
+                <div class="hardware-img"><img src="assets/buzzer-shield.png" alt="Buzzer Shield"><span class="image-glow"></span></div>
+                <div class="shield-copy"><p>Emissão de sinais sonoros.</p><p>Pino: D12</p><p>Consumo: 0 mA</p><div class="actions align-end"><button class="btn btn-secondary activate-btn">Ativar</button></div></div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- ===================================================== -->
+        <!-- SOBRE MIM -->
+        <!-- ===================================================== -->
+
+<section
+  id="aboutSection"
+  class="about-section"
+  style="display: none;"
+>
+
+  <div class="about-profile-card">
+
+    <div class="about-photo-area">
+
+      <img
+        src="assets/profile/thiago.jpg"
+        alt="Thiago Santos"
+        class="about-profile-photo"
+      >
+
+    </div>
+
+
+    <div class="about-profile-content">
+
+      <span class="about-eyebrow">
+        C++ EXPERIENCE
+      </span>
+
+      <h1>
+        Thiago Santos
+      </h1>
+
+      <h2>
+        Embarcadero Brasil
+        <span>•</span>
+        MVP
+      </h2>
+
+      <p>
+        Desenvolvedor C++ e Embarcadero MVP,
+        apaixonado por transformar tecnologia
+        em soluções reais.
+        Compartilho experiências sobre
+        C++Builder, Inteligência Artificial,
+        IoT, automação e novas tecnologias
+        aplicadas ao desenvolvimento de software.
+      </p>
+
+    </div>
+
+  </div>
+
+   <div class="about-links-grid">
+
+  <a
+    class="about-link-card youtube"
+    href="https://www.youtube.com/@tsanthiago"
+    target="_blank"
+  >
+    <h3>YouTube</h3>
+
+    <p>
+      Inscreva-se no canal
+    </p>
+
+    <img
+      src="assets/qrcodes/youtube.png"
+      alt="QR Code YouTube"
+      class="about-qrcode"
+    >
+
+    <span class="about-open-link">
+      Abrir canal
+    </span>
+  </a>
+
+
+  <a
+    class="about-link-card linkedin"
+    href="https://www.linkedin.com/in/thiago-santos-8b91b4b7/"
+    target="_blank"
+  >
+    <h3>LinkedIn</h3>
+
+    <p>
+      Conecte-se comigo
+    </p>
+
+    <img
+      src="assets/qrcodes/linkedin.png"
+      alt="QR Code LinkedIn"
+      class="about-qrcode"
+    >
+
+    <span class="about-open-link">
+      Abrir perfil
+    </span>
+  </a>
+
+
+  <a
+    class="about-link-card github"
+    href="https://github.com/SanthiagoS"
+    target="_blank"
+  >
+    <h3>GitHub</h3>
+
+    <p>
+      Confira meus projetos
+    </p>
+
+    <img
+      src="assets/qrcodes/github.png"
+      alt="QR Code GitHub"
+      class="about-qrcode"
+    >
+
+    <span class="about-open-link">
+      Ver projetos
+    </span>
+  </a>
+
+
+  <a
+    class="about-link-card webinar"
+    href="https://lp.embarcaderobr.com.br/zoho-marketing-automation-workspace/webinar-c-mais-mais-builder/"
+    target="_blank"
+  >
+    <h3>
+      Webinars em C++
+    </h3>
+
+    <p>
+      Toda última sexta-feira do mês
+    </p>
+
+    <strong class="about-highlight">
+      Aprenda novas tecnologias usando C++
+    </strong>
+
+    <img
+      src="assets/qrcodes/webinar-cpp.png"
+      alt="QR Code Webinars em C++"
+      class="about-qrcode"
+    >
+
+    <span class="about-open-link">
+      Inscreva-se
+    </span>
+  </a>
+
+
+  <a
+    class="about-link-card contact"
+    href="https://linktr.ee/tsanthiago?utm_source=linktree_profile_share&ltsid=1010d93c-85ff-44ea-afdf-c3c909a01563"
+    target="_blank"
+  >
+    <h3>
+      Entre em contato
+    </h3>
+
+    <p>
+      tsantos@embarcadero.com.br
+    </p>
+
+    <img
+      src="assets/qrcodes/contato.png"
+      alt="QR Code Contato"
+      class="about-qrcode"
+    >
+
+    <span class="about-open-link">
+      Meus links
+    </span>
+  </a>
+
+</div>
+  
+
+</section>
+
+        <footer class="system-footer glass">
+
+  <div class="summary-title">
+    Resumo do Sistema
+  </div>
+
+
+  <div class="summary-item">
+    <span class="summary-icon">
+      ⌘
+    </span>
+
+    <div>
+      <small>
+        Dispositivos
+      </small>
+
+      <strong id="summaryDevices">
+        0/0
+      </strong>
+    </div>
+  </div>
+
+
+  <div class="summary-item">
+    <span class="summary-icon">
+      ⌁
+    </span>
+
+    <div>
+      <small>
+        Comunicação
+      </small>
+
+      <strong id="summaryCommunication">
+        Aguardando
+      </strong>
+    </div>
+  </div>
+
+
+  <div class="summary-item">
+    <span class="summary-icon error">
+      ×
+    </span>
+
+    <div>
+      <small>
+        Erros
+      </small>
+
+      <strong id="errorCount">
+        0
+      </strong>
+    </div>
+  </div>
+
+
+  <div class="summary-item">
+    <span class="summary-icon">
+      ◷
+    </span>
+
+    <div>
+      <small>
+        Uptime
+      </small>
+
+      <strong id="uptime">
+        00:00:00
+      </strong>
+    </div>
+  </div>
+
+
+  <canvas
+    id="signalChart"
+    width="600"
+    height="92"
+    aria-label="Gráfico de comunicação">
+  </canvas>
+
+</footer>
+
+
+        <div class="copyright">© 2026 TSX Labs — C++ Hardware Experience</div>
+      </section>
+    </div>
+  </main>
+
+  <div class="toast-stack" id="toastStack"></div>
+
+  <dialog class="modal" id="configModal">
+    <form method="dialog" class="modal-card glass">
+      <div class="modal-head"><div><small>CONFIGURAÇÃO DO MÓDULO</small><h3 id="modalTitle">Shield</h3></div><button class="modal-close" value="cancel">×</button></div>
+      <div class="modal-grid">
+        <label>Modo de operação<select><option>Automático</option><option>Manual</option><option>Monitoramento</option></select></label>
+        <label>Frequência de leitura<input type="range" min="1" max="100" value="60"></label>
+        <label class="full">Identificador<input type="text" id="moduleId" value="TSX-MOD-001"></label>
+      </div>
+      <div class="modal-actions"><button class="btn btn-dark" value="cancel">Cancelar</button><button class="btn btn-primary" id="saveConfigBtn" value="default">Salvar configuração</button></div>
+    </form>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
