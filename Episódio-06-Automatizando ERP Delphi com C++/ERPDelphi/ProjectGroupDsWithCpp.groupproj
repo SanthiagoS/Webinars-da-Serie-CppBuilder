@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{C162D90E-A37B-4BEF-8EDF-6EA7AFD077CB}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="prjDelphiSystem.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="app-mobile-funcionario\prjFuncionarioMobile.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="prjDelphiSystem">
+        <MSBuild Projects="prjDelphiSystem.dproj"/>
+    </Target>
+    <Target Name="prjDelphiSystem:Clean">
+        <MSBuild Projects="prjDelphiSystem.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="prjDelphiSystem:Make">
+        <MSBuild Projects="prjDelphiSystem.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="prjFuncionarioMobile">
+        <MSBuild Projects="app-mobile-funcionario\prjFuncionarioMobile.dproj"/>
+    </Target>
+    <Target Name="prjFuncionarioMobile:Clean">
+        <MSBuild Projects="app-mobile-funcionario\prjFuncionarioMobile.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="prjFuncionarioMobile:Make">
+        <MSBuild Projects="app-mobile-funcionario\prjFuncionarioMobile.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="prjDelphiSystem;prjFuncionarioMobile"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="prjDelphiSystem:Clean;prjFuncionarioMobile:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="prjDelphiSystem:Make;prjFuncionarioMobile:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

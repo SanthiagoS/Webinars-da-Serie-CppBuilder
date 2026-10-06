@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2026/07/06 12:12:57.000.491,=C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2026/07/06 12:13:21.000.244,=C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2026/07/06 12:13:48.000.162,C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Unit2.fmx=C:\Users\thiago.silva\Desktop\Conference2026\DelphiSystem\untPrincipalDS.fmx</Transaction>
+    <Transaction>2026/07/06 12:13:48.000.162,C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\thiago.silva\Desktop\Conference2026\DelphiSystem\untPrincipalDS.pas</Transaction>
+    <Transaction>2026/07/06 12:13:57.000.658,C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\thiago.silva\Desktop\Conference2026\DelphiSystem\prjDelphiSystem.dproj</Transaction>
+    <Transaction>2026/08/18 10:54:41.000.789,=C:\Users\thiago.silva\Downloads\ERP_Delphi_Observability_Heartbeat_v0_4\ObservabilityHeartbeat.pas</Transaction>
+    <Transaction>2026/08/18 10:54:57.000.124,C:\Users\thiago.silva\Downloads\ERP_Delphi_Observability_Heartbeat_v0_4\ObservabilityHeartbeat.pas=C:\Users\thiago.silva\Desktop\Conference2026\DelphiSystem\ObservabilityHeartbeat.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android64="" Android=""/>
+	</ActiveMobileDevice>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="ObservabilityHeartbeat.pas"/>
+    <File Path="untPortariaApi.pas"/>
+    <File Path="untPrincipalDS.pas"/>
+    <File Path="untPrincipalDS.fmx"/>
+  </ProjectSortOrder>
+</BorlandProject>
