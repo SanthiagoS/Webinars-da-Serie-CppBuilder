@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2026/07/08 10:04:18.000.536,=C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2026/07/08 10:04:18.000.497,=C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>2026/07/08 10:04:32.000.028,=C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2026/07/08 10:04:32.000.367,=C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>2026/08/10 12:12:07.000.555,=C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>2026/08/10 12:12:07.000.635,=C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2026/08/10 12:12:59.000.896,C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Unit1.h=C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\Unit1.h</Transaction>
+    <Transaction>2026/08/10 12:12:59.000.896,C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\Unit1.dfm</Transaction>
+    <Transaction>2026/08/10 12:12:59.000.911,C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Project2.cbproj=C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\prjPortariaCPP.cbproj</Transaction>
+    <Transaction>2026/08/10 12:12:59.000.896,C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Unit1.cpp=C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\Unit1.cpp</Transaction>
+    <Transaction>2026/08/10 12:12:59.000.877,C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Project2PCH1.h=C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\prjPortariaCPPPCH1.h</Transaction>
+    <Transaction>2026/08/10 12:13:06.000.173,C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\Unit1.h=C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\untPrincipal.h</Transaction>
+    <Transaction>2026/08/10 12:13:06.000.173,C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\Unit1.cpp=C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\untPrincipal.cpp</Transaction>
+    <Transaction>2026/08/10 12:13:06.000.173,C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\Unit1.dfm=C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\untPrincipal.dfm</Transaction>
+    <Transaction>2026/08/10 12:13:09.000.077,C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\prjPortariaCPP.cbproj=C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\prjPortariaCPP.cbproj</Transaction>
+    <Transaction>2026/08/10 12:38:02.000.528,=C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\MainForm.cpp</Transaction>
+    <Transaction>2026/08/10 12:38:05.000.908,=C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\EmployeeModel.cpp</Transaction>
+    <Transaction>2026/08/10 12:38:11.000.417,=C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\AppConfig.cpp</Transaction>
+    <Transaction>2026/08/10 12:38:18.000.371,=C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\CameraManager.cpp</Transaction>
+    <Transaction>2026/08/10 12:38:23.000.785,=C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\BleManager.cpp</Transaction>
+    <Transaction>2026/08/10 12:38:30.000.234,=C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\EmployeeRepository.cpp</Transaction>
+    <Transaction>2026/08/10 12:38:34.000.112,=C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\IntegrationClient.cpp</Transaction>
+    <Transaction>2026/08/10 12:38:38.000.521,=C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\IdentificationManager.cpp</Transaction>
+    <Transaction>2026/08/10 12:38:44.000.203,C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\untPrincipal.cpp=</Transaction>
+    <Transaction>2026/08/10 14:30:28.000.256,=C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\FaceDetector.cpp</Transaction>
+    <Transaction>2026/08/10 15:03:57.000.536,=C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\FaceRecognizer.cpp</Transaction>
+    <Transaction>2026/08/10 15:04:01.000.789,=C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\FaceRepository.cpp</Transaction>
+    <Transaction>2026/08/10 16:37:05.000.986,=C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\LivenessDetector.cpp</Transaction>
+    <Transaction>2026/08/11 15:36:24.000.671,=C:\Users\thiago.silva\Downloads\AccessEventRepository.cpp</Transaction>
+    <Transaction>2026/08/11 15:37:09.000.574,C:\Users\thiago.silva\Downloads\AccessEventRepository.cpp=C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\AccessEventRepository.cpp</Transaction>
+    <Transaction>2026/08/11 15:37:09.000.574,C:\Users\thiago.silva\Downloads\AccessEventRepository.h=C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\AccessEventRepository.h</Transaction>
+    <Transaction>2026/08/18 11:22:15.000.203,=C:\Users\thiago.silva\Downloads\TSX_Observability_v0_5_PortariaHeartbeat\PortariaCPP\ObservabilityHeartbeat.cpp</Transaction>
+    <Transaction>2026/08/18 11:22:37.000.246,C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\ObservabilityHeartbeat.cpp=C:\Users\thiago.silva\Downloads\TSX_Observability_v0_5_PortariaHeartbeat\PortariaCPP\ObservabilityHeartbeat.cpp</Transaction>
+    <Transaction>2026/08/18 11:22:37.000.246,C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\ObservabilityHeartbeat.h=C:\Users\thiago.silva\Downloads\TSX_Observability_v0_5_PortariaHeartbeat\PortariaCPP\ObservabilityHeartbeat.h</Transaction>
+    <Transaction>2026/08/19 15:32:11.000.242,=C:\Users\thiago.silva\Downloads\TSX_Observability_v0_6_3_EmployeeSync_FINAL\PortariaCPP\EmployeeSyncClient.cpp</Transaction>
+    <Transaction>2026/08/19 15:39:20.000.926,=C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\EmployeeSyncClient.cpp</Transaction>
+    <Transaction>2026/08/21 12:12:07.000.679,=C:\Users\thiago.silva\Desktop\Conference2026\CPP13Portaria\RfidSerialReader.cpp</Transaction>
+  </Transactions>
+</BorlandProject>

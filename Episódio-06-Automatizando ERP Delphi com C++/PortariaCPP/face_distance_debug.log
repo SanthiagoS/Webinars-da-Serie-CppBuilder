@@ -1,0 +1,316 @@
+17:37:17.176 pid=18076 FaceDetector Initialize: FaceDetectorYN/YuNet ready
+17:37:18.036 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:18.036 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:18.255 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:18.255 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:18.555 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:18.555 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:18.848 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:18.848 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:19.148 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:19.148 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:19.448 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:19.448 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:19.740 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:19.740 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:20.031 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:20.032 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:20.400 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:20.400 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:20.769 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:20.769 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:21.080 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:21.080 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:21.444 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:21.444 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:21.914 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:21.914 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:22.407 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:22.407 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:22.898 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:22.898 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:23.429 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:23.429 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:23.862 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:23.862 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:24.180 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:24.180 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:24.544 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:24.544 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:24.891 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:24.891 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:25.207 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:25.207 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:25.522 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:25.524 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:25.851 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:25.851 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:26.182 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:26.182 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:26.510 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:26.510 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:26.829 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:26.829 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:27.174 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:27.174 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:27.541 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:27.541 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:27.872 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:27.872 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:28.249 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:28.249 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:28.645 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:28.645 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:28.972 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:28.972 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:29.328 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:29.328 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:29.660 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:29.660 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:29.986 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:29.986 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:30.325 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:30.325 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:30.634 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:30.634 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:30.959 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:30.959 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:31.277 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:31.277 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=NoFace nearEdge=0
+17:37:31.588 pid=18076 FACE candidate: frame: 1920x1080 face: x=986 y=0 w=427 h=508 ratio=0.841 confidence=0.890
+17:37:31.588 pid=18076 FACE_DISTANCE_INPUT rawDetections=1 validDetections=1 confidence=0.890 faceX=986 faceY=0 faceW=427 faceH=508 faceRatio=0.470 previousFace=0 previousDistance=NoFace
+17:37:31.588 pid=18076 FACE_DISTANCE_STATE rawDetections=1 validDetections=1 faceRatio=0.470 faceWidth=427 faceHeight=508 distanceState=Good previousDistance=NoFace nearEdge=1
+17:37:31.910 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=1 previousDistance=Good
+17:37:31.910 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.470 faceWidth=427 faceHeight=508 distanceState=TooClose previousDistance=NoFace nearEdge=1
+17:37:32.247 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=1 previousDistance=TooClose
+17:37:32.247 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.470 faceWidth=427 faceHeight=508 distanceState=TooClose previousDistance=NoFace nearEdge=1
+17:37:32.599 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=1 previousDistance=TooClose
+17:37:32.599 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.470 faceWidth=427 faceHeight=508 distanceState=TooClose previousDistance=NoFace nearEdge=1
+17:37:32.948 pid=18076 FACE candidate: frame: 1920x1080 face: x=1000 y=47 w=420 h=528 ratio=0.795 confidence=0.889
+17:37:32.948 pid=18076 FACE_DISTANCE_INPUT rawDetections=1 validDetections=1 confidence=0.889 faceX=1000 faceY=47 faceW=420 faceH=528 faceRatio=0.489 previousFace=1 previousDistance=TooClose
+17:37:32.948 pid=18076 FACE_DISTANCE_STATE rawDetections=1 validDetections=1 faceRatio=0.480 faceWidth=424 faceHeight=518 distanceState=Good previousDistance=TooClose nearEdge=1
+17:37:33.278 pid=18076 FACE candidate: frame: 1920x1080 face: x=1009 y=55 w=401 h=519 ratio=0.773 confidence=0.885
+17:37:33.278 pid=18076 FACE_DISTANCE_INPUT rawDetections=1 validDetections=1 confidence=0.885 faceX=1009 faceY=55 faceW=401 faceH=519 faceRatio=0.481 previousFace=1 previousDistance=Good
+17:37:33.279 pid=18076 FACE_DISTANCE_STATE rawDetections=1 validDetections=1 faceRatio=0.481 faceWidth=413 faceHeight=519 distanceState=Good previousDistance=Good nearEdge=1
+17:37:33.600 pid=18076 FACE candidate: frame: 1920x1080 face: x=1051 y=105 w=402 h=499 ratio=0.806 confidence=0.881
+17:37:33.601 pid=18076 FACE_DISTANCE_INPUT rawDetections=1 validDetections=1 confidence=0.881 faceX=1051 faceY=105 faceW=402 faceH=499 faceRatio=0.462 previousFace=1 previousDistance=Good
+17:37:33.601 pid=18076 FACE_DISTANCE_STATE rawDetections=1 validDetections=1 faceRatio=0.471 faceWidth=408 faceHeight=509 distanceState=Good previousDistance=Good nearEdge=0
+17:37:33.926 pid=18076 FACE candidate: frame: 1920x1080 face: x=1077 y=106 w=354 h=448 ratio=0.790 confidence=0.899
+17:37:33.927 pid=18076 FACE_DISTANCE_INPUT rawDetections=1 validDetections=1 confidence=0.899 faceX=1077 faceY=106 faceW=354 faceH=448 faceRatio=0.415 previousFace=1 previousDistance=Good
+17:37:33.927 pid=18076 FACE_DISTANCE_STATE rawDetections=1 validDetections=1 faceRatio=0.444 faceWidth=381 faceHeight=479 distanceState=Good previousDistance=Good nearEdge=0
+17:37:34.262 pid=18076 FACE candidate: frame: 1920x1080 face: x=1081 y=65 w=356 h=473 ratio=0.753 confidence=0.906
+17:37:34.263 pid=18076 FACE_DISTANCE_INPUT rawDetections=1 validDetections=1 confidence=0.906 faceX=1081 faceY=65 faceW=356 faceH=473 faceRatio=0.438 previousFace=1 previousDistance=Good
+17:37:34.263 pid=18076 FACE_DISTANCE_STATE rawDetections=1 validDetections=1 faceRatio=0.441 faceWidth=369 faceHeight=476 distanceState=Good previousDistance=Good nearEdge=0
+17:37:34.597 pid=18076 FACE candidate: frame: 1920x1080 face: x=1095 y=61 w=374 h=468 ratio=0.799 confidence=0.897
+17:37:34.598 pid=18076 FACE_DISTANCE_INPUT rawDetections=1 validDetections=1 confidence=0.897 faceX=1095 faceY=61 faceW=374 faceH=468 faceRatio=0.433 previousFace=1 previousDistance=Good
+17:37:34.598 pid=18076 FACE_DISTANCE_STATE rawDetections=1 validDetections=1 faceRatio=0.437 faceWidth=372 faceHeight=472 distanceState=Good previousDistance=Good nearEdge=0
+17:37:34.925 pid=18076 FACE candidate: frame: 1920x1080 face: x=1073 y=48 w=388 h=498 ratio=0.779 confidence=0.897
+17:37:34.925 pid=18076 FACE_DISTANCE_INPUT rawDetections=1 validDetections=1 confidence=0.897 faceX=1073 faceY=48 faceW=388 faceH=498 faceRatio=0.461 previousFace=1 previousDistance=Good
+17:37:34.926 pid=18076 FACE_DISTANCE_STATE rawDetections=1 validDetections=1 faceRatio=0.449 faceWidth=380 faceHeight=485 distanceState=Good previousDistance=Good nearEdge=0
+17:37:35.250 pid=18076 FACE candidate: frame: 1920x1080 face: x=1095 y=54 w=358 h=470 ratio=0.762 confidence=0.880
+17:37:35.250 pid=18076 FACE_DISTANCE_INPUT rawDetections=1 validDetections=1 confidence=0.880 faceX=1095 faceY=54 faceW=358 faceH=470 faceRatio=0.435 previousFace=1 previousDistance=Good
+17:37:35.250 pid=18076 FACE_DISTANCE_STATE rawDetections=1 validDetections=1 faceRatio=0.443 faceWidth=369 faceHeight=478 distanceState=Good previousDistance=Good nearEdge=0
+17:37:35.599 pid=18076 FACE candidate: frame: 1920x1080 face: x=1064 y=51 w=395 h=495 ratio=0.798 confidence=0.891
+17:37:35.599 pid=18076 FACE_DISTANCE_INPUT rawDetections=1 validDetections=1 confidence=0.891 faceX=1064 faceY=51 faceW=395 faceH=495 faceRatio=0.458 previousFace=1 previousDistance=Good
+17:37:35.599 pid=18076 FACE_DISTANCE_STATE rawDetections=1 validDetections=1 faceRatio=0.451 faceWidth=382 faceHeight=487 distanceState=Good previousDistance=Good nearEdge=1
+17:37:35.937 pid=18076 FACE candidate: frame: 1920x1080 face: x=1100 y=69 w=367 h=458 ratio=0.801 confidence=0.894
+17:37:35.938 pid=18076 FACE_DISTANCE_INPUT rawDetections=1 validDetections=1 confidence=0.894 faceX=1100 faceY=69 faceW=367 faceH=458 faceRatio=0.424 previousFace=1 previousDistance=Good
+17:37:35.938 pid=18076 FACE_DISTANCE_STATE rawDetections=1 validDetections=1 faceRatio=0.438 faceWidth=375 faceHeight=473 distanceState=Good previousDistance=Good nearEdge=0
+17:37:36.282 pid=18076 FACE candidate: frame: 1920x1080 face: x=1095 y=58 w=382 h=479 ratio=0.797 confidence=0.893
+17:37:36.284 pid=18076 FACE_DISTANCE_INPUT rawDetections=1 validDetections=1 confidence=0.893 faceX=1095 faceY=58 faceW=382 faceH=479 faceRatio=0.444 previousFace=1 previousDistance=Good
+17:37:36.284 pid=18076 FACE_DISTANCE_STATE rawDetections=1 validDetections=1 faceRatio=0.441 faceWidth=379 faceHeight=476 distanceState=Good previousDistance=Good nearEdge=0
+17:37:36.628 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=1 previousDistance=Good
+17:37:36.628 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.441 faceWidth=379 faceHeight=476 distanceState=Good previousDistance=Good nearEdge=0
+17:37:36.964 pid=18076 FACE candidate: frame: 1920x1080 face: x=1068 y=55 w=398 h=491 ratio=0.811 confidence=0.899
+17:37:36.964 pid=18076 FACE_DISTANCE_INPUT rawDetections=1 validDetections=1 confidence=0.899 faceX=1068 faceY=55 faceW=398 faceH=491 faceRatio=0.455 previousFace=1 previousDistance=Good
+17:37:36.965 pid=18076 FACE_DISTANCE_STATE rawDetections=1 validDetections=1 faceRatio=0.448 faceWidth=389 faceHeight=484 distanceState=Good previousDistance=Good nearEdge=0
+17:37:37.295 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=1 previousDistance=Good
+17:37:37.295 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.448 faceWidth=389 faceHeight=484 distanceState=Good previousDistance=Good nearEdge=0
+17:37:37.629 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=1 previousDistance=Good
+17:37:37.629 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.448 faceWidth=389 faceHeight=484 distanceState=Good previousDistance=Good nearEdge=0
+17:37:37.954 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=1 previousDistance=Good
+17:37:37.954 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.448 faceWidth=389 faceHeight=484 distanceState=Good previousDistance=Good nearEdge=0
+17:37:38.270 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=1 previousDistance=Good
+17:37:38.270 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.448 faceWidth=389 faceHeight=484 distanceState=Good previousDistance=Good nearEdge=0
+17:37:38.579 pid=18076 FACE candidate: frame: 1920x1080 face: x=1000 y=72 w=449 h=540 ratio=0.831 confidence=0.889
+17:37:38.579 pid=18076 FACE_DISTANCE_INPUT rawDetections=1 validDetections=1 confidence=0.889 faceX=1000 faceY=72 faceW=449 faceH=540 faceRatio=0.500 previousFace=1 previousDistance=Good
+17:37:38.579 pid=18076 FACE_DISTANCE_STATE rawDetections=1 validDetections=1 faceRatio=0.474 faceWidth=419 faceHeight=512 distanceState=Good previousDistance=Good nearEdge=0
+17:37:38.923 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=1 previousDistance=Good
+17:37:38.923 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.474 faceWidth=419 faceHeight=512 distanceState=Good previousDistance=Good nearEdge=0
+17:37:39.271 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=1 previousDistance=Good
+17:37:39.271 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.474 faceWidth=419 faceHeight=512 distanceState=Good previousDistance=Good nearEdge=0
+17:37:39.596 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=1 previousDistance=Good
+17:37:39.596 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.474 faceWidth=419 faceHeight=512 distanceState=Good previousDistance=Good nearEdge=0
+17:37:39.922 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=1 previousDistance=Good
+17:37:39.922 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.474 faceWidth=419 faceHeight=512 distanceState=Good previousDistance=Good nearEdge=0
+17:37:40.253 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=1 previousDistance=Good
+17:37:40.253 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:40.612 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:40.614 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:40.939 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:40.939 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:41.261 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:41.262 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:41.609 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:41.609 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:41.962 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:41.962 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:42.299 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:42.299 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:42.655 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:42.656 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:42.973 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:42.973 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:43.324 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:43.324 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:43.739 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:43.739 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:44.066 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:44.066 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:44.407 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:44.407 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:44.759 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:44.760 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:45.080 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:45.080 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:45.424 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:45.424 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:45.757 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:45.757 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:46.091 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:46.091 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:46.404 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:46.405 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:46.711 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:46.711 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:47.055 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:47.055 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:47.486 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:47.486 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:47.901 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:47.901 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:48.210 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:48.210 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:48.501 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:48.501 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:48.801 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:48.801 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:49.094 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:49.094 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:49.390 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:49.390 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:49.689 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:49.689 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:49.984 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:49.984 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:50.275 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:50.275 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:50.569 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:50.569 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:50.859 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:50.859 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:51.156 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:51.156 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:51.452 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:51.452 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:51.745 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:51.745 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:52.055 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:52.055 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:52.364 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:52.364 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:52.682 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:52.682 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:52.998 pid=18076 FACE candidate: frame: 1920x1080 face: x=750 y=212 w=437 h=504 ratio=0.867 confidence=0.883
+17:37:52.999 pid=18076 FACE_DISTANCE_INPUT rawDetections=1 validDetections=1 confidence=0.883 faceX=750 faceY=212 faceW=437 faceH=504 faceRatio=0.467 previousFace=0 previousDistance=NoFace
+17:37:52.999 pid=18076 FACE_DISTANCE_STATE rawDetections=1 validDetections=1 faceRatio=0.467 faceWidth=437 faceHeight=504 distanceState=Good previousDistance=NoFace nearEdge=0
+17:37:53.295 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=1 previousDistance=Good
+17:37:53.295 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.467 faceWidth=437 faceHeight=504 distanceState=Good previousDistance=NoFace nearEdge=0
+17:37:53.585 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=1 previousDistance=Good
+17:37:53.585 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.467 faceWidth=437 faceHeight=504 distanceState=Good previousDistance=NoFace nearEdge=0
+17:37:53.884 pid=18076 FACE candidate: frame: 1920x1080 face: x=791 y=176 w=434 h=521 ratio=0.833 confidence=0.886
+17:37:53.885 pid=18076 FACE_DISTANCE_INPUT rawDetections=1 validDetections=1 confidence=0.886 faceX=791 faceY=176 faceW=434 faceH=521 faceRatio=0.482 previousFace=1 previousDistance=Good
+17:37:53.885 pid=18076 FACE_DISTANCE_STATE rawDetections=1 validDetections=1 faceRatio=0.475 faceWidth=436 faceHeight=513 distanceState=Good previousDistance=Good nearEdge=0
+17:37:54.183 pid=18076 FACE candidate: frame: 1920x1080 face: x=825 y=201 w=387 h=459 ratio=0.843 confidence=0.899
+17:37:54.183 pid=18076 FACE_DISTANCE_INPUT rawDetections=1 validDetections=1 confidence=0.899 faceX=825 faceY=201 faceW=387 faceH=459 faceRatio=0.425 previousFace=1 previousDistance=Good
+17:37:54.183 pid=18076 FACE_DISTANCE_STATE rawDetections=1 validDetections=1 faceRatio=0.450 faceWidth=412 faceHeight=486 distanceState=Good previousDistance=Good nearEdge=0
+17:37:54.476 pid=18076 FACE candidate: frame: 1920x1080 face: x=844 y=188 w=401 h=477 ratio=0.841 confidence=0.899
+17:37:54.476 pid=18076 FACE_DISTANCE_INPUT rawDetections=1 validDetections=1 confidence=0.899 faceX=844 faceY=188 faceW=401 faceH=477 faceRatio=0.442 previousFace=1 previousDistance=Good
+17:37:54.476 pid=18076 FACE_DISTANCE_STATE rawDetections=1 validDetections=1 faceRatio=0.446 faceWidth=407 faceHeight=482 distanceState=Good previousDistance=Good nearEdge=0
+17:37:54.771 pid=18076 FACE candidate: frame: 1920x1080 face: x=851 y=182 w=398 h=493 ratio=0.807 confidence=0.896
+17:37:54.771 pid=18076 FACE_DISTANCE_INPUT rawDetections=1 validDetections=1 confidence=0.896 faceX=851 faceY=182 faceW=398 faceH=493 faceRatio=0.456 previousFace=1 previousDistance=Good
+17:37:54.771 pid=18076 FACE_DISTANCE_STATE rawDetections=1 validDetections=1 faceRatio=0.452 faceWidth=403 faceHeight=488 distanceState=Good previousDistance=Good nearEdge=0
+17:37:55.062 pid=18076 FACE candidate: frame: 1920x1080 face: x=850 y=184 w=395 h=494 ratio=0.800 confidence=0.895
+17:37:55.062 pid=18076 FACE_DISTANCE_INPUT rawDetections=1 validDetections=1 confidence=0.895 faceX=850 faceY=184 faceW=395 faceH=494 faceRatio=0.457 previousFace=1 previousDistance=Good
+17:37:55.062 pid=18076 FACE_DISTANCE_STATE rawDetections=1 validDetections=1 faceRatio=0.455 faceWidth=399 faceHeight=491 distanceState=Good previousDistance=Good nearEdge=0
+17:37:55.357 pid=18076 FACE candidate: frame: 1920x1080 face: x=887 y=187 w=385 h=481 ratio=0.800 confidence=0.898
+17:37:55.357 pid=18076 FACE_DISTANCE_INPUT rawDetections=1 validDetections=1 confidence=0.898 faceX=887 faceY=187 faceW=385 faceH=481 faceRatio=0.445 previousFace=1 previousDistance=Good
+17:37:55.357 pid=18076 FACE_DISTANCE_STATE rawDetections=1 validDetections=1 faceRatio=0.450 faceWidth=392 faceHeight=486 distanceState=Good previousDistance=Good nearEdge=0
+17:37:55.652 pid=18076 FACE candidate: frame: 1920x1080 face: x=852 y=185 w=401 h=492 ratio=0.815 confidence=0.906
+17:37:55.653 pid=18076 FACE_DISTANCE_INPUT rawDetections=1 validDetections=1 confidence=0.906 faceX=852 faceY=185 faceW=401 faceH=492 faceRatio=0.456 previousFace=1 previousDistance=Good
+17:37:55.653 pid=18076 FACE_DISTANCE_STATE rawDetections=1 validDetections=1 faceRatio=0.453 faceWidth=397 faceHeight=489 distanceState=Good previousDistance=Good nearEdge=0
+17:37:55.950 pid=18076 FACE candidate: frame: 1920x1080 face: x=861 y=183 w=389 h=502 ratio=0.775 confidence=0.901
+17:37:55.950 pid=18076 FACE_DISTANCE_INPUT rawDetections=1 validDetections=1 confidence=0.901 faceX=861 faceY=183 faceW=389 faceH=502 faceRatio=0.465 previousFace=1 previousDistance=Good
+17:37:55.950 pid=18076 FACE_DISTANCE_STATE rawDetections=1 validDetections=1 faceRatio=0.459 faceWidth=393 faceHeight=496 distanceState=Good previousDistance=Good nearEdge=0
+17:37:56.242 pid=18076 FACE candidate: frame: 1920x1080 face: x=864 y=211 w=379 h=442 ratio=0.857 confidence=0.898
+17:37:56.242 pid=18076 FACE_DISTANCE_INPUT rawDetections=1 validDetections=1 confidence=0.898 faceX=864 faceY=211 faceW=379 faceH=442 faceRatio=0.409 previousFace=1 previousDistance=Good
+17:37:56.242 pid=18076 FACE_DISTANCE_STATE rawDetections=1 validDetections=1 faceRatio=0.434 faceWidth=386 faceHeight=469 distanceState=Good previousDistance=Good nearEdge=0
+17:37:56.534 pid=18076 FACE candidate: frame: 1920x1080 face: x=856 y=190 w=396 h=486 ratio=0.815 confidence=0.898
+17:37:56.535 pid=18076 FACE_DISTANCE_INPUT rawDetections=1 validDetections=1 confidence=0.898 faceX=856 faceY=190 faceW=396 faceH=486 faceRatio=0.450 previousFace=1 previousDistance=Good
+17:37:56.535 pid=18076 FACE_DISTANCE_STATE rawDetections=1 validDetections=1 faceRatio=0.443 faceWidth=391 faceHeight=478 distanceState=Good previousDistance=Good nearEdge=0
+17:37:56.837 pid=18076 FACE candidate: frame: 1920x1080 face: x=905 y=184 w=396 h=490 ratio=0.808 confidence=0.896
+17:37:56.837 pid=18076 FACE_DISTANCE_INPUT rawDetections=1 validDetections=1 confidence=0.896 faceX=905 faceY=184 faceW=396 faceH=490 faceRatio=0.454 previousFace=1 previousDistance=Good
+17:37:56.837 pid=18076 FACE_DISTANCE_STATE rawDetections=1 validDetections=1 faceRatio=0.448 faceWidth=394 faceHeight=484 distanceState=Good previousDistance=Good nearEdge=0
+17:37:57.128 pid=18076 FACE candidate: frame: 1920x1080 face: x=866 y=177 w=421 h=516 ratio=0.816 confidence=0.891
+17:37:57.128 pid=18076 FACE_DISTANCE_INPUT rawDetections=1 validDetections=1 confidence=0.891 faceX=866 faceY=177 faceW=421 faceH=516 faceRatio=0.478 previousFace=1 previousDistance=Good
+17:37:57.128 pid=18076 FACE_DISTANCE_STATE rawDetections=1 validDetections=1 faceRatio=0.463 faceWidth=408 faceHeight=500 distanceState=Good previousDistance=Good nearEdge=0
+17:37:57.422 pid=18076 FACE candidate: frame: 1920x1080 face: x=860 y=208 w=418 h=508 ratio=0.823 confidence=0.892
+17:37:57.422 pid=18076 FACE_DISTANCE_INPUT rawDetections=1 validDetections=1 confidence=0.892 faceX=860 faceY=208 faceW=418 faceH=508 faceRatio=0.470 previousFace=1 previousDistance=Good
+17:37:57.422 pid=18076 FACE_DISTANCE_STATE rawDetections=1 validDetections=1 faceRatio=0.467 faceWidth=413 faceHeight=504 distanceState=Good previousDistance=Good nearEdge=0
+17:37:57.717 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=1 previousDistance=Good
+17:37:57.717 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.467 faceWidth=413 faceHeight=504 distanceState=Good previousDistance=Good nearEdge=0
+17:37:58.009 pid=18076 FACE candidate: frame: 1920x1080 face: x=863 y=193 w=451 h=540 ratio=0.835 confidence=0.883
+17:37:58.009 pid=18076 FACE_DISTANCE_INPUT rawDetections=1 validDetections=1 confidence=0.883 faceX=863 faceY=193 faceW=451 faceH=540 faceRatio=0.500 previousFace=1 previousDistance=Good
+17:37:58.009 pid=18076 FACE_DISTANCE_STATE rawDetections=1 validDetections=1 faceRatio=0.483 faceWidth=432 faceHeight=522 distanceState=Good previousDistance=Good nearEdge=0
+17:37:58.304 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=1 previousDistance=Good
+17:37:58.304 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.483 faceWidth=432 faceHeight=522 distanceState=Good previousDistance=Good nearEdge=0
+17:37:58.607 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=1 previousDistance=Good
+17:37:58.607 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.483 faceWidth=432 faceHeight=522 distanceState=Good previousDistance=Good nearEdge=0
+17:37:58.905 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=1 previousDistance=Good
+17:37:58.905 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.483 faceWidth=432 faceHeight=522 distanceState=Good previousDistance=Good nearEdge=0
+17:37:59.205 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=1 previousDistance=Good
+17:37:59.206 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.483 faceWidth=432 faceHeight=522 distanceState=Good previousDistance=Good nearEdge=0
+17:37:59.501 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=1 previousDistance=Good
+17:37:59.502 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:37:59.791 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:37:59.792 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:38:00.095 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:38:00.095 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:38:00.394 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:38:00.394 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:38:00.687 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:38:00.687 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:38:00.991 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:38:00.991 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:38:01.288 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:38:01.288 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:38:01.581 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:38:01.581 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:38:01.871 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:38:01.871 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:38:02.166 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:38:02.166 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:38:02.464 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:38:02.464 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:38:02.756 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:38:02.757 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:38:03.050 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:38:03.050 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:38:03.342 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:38:03.342 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:38:03.639 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:38:03.639 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:38:03.939 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:38:03.940 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
+17:38:04.244 pid=18076 FACE_DISTANCE_INPUT rawDetections=0 validDetections=0 confidence=0.000 faceX=-1 faceY=-1 faceW=0 faceH=0 faceRatio=0.000 previousFace=0 previousDistance=NoFace
+17:38:04.245 pid=18076 FACE_DISTANCE_STATE rawDetections=0 validDetections=0 faceRatio=0.000 faceWidth=0 faceHeight=0 distanceState=NoFace previousDistance=Good nearEdge=0
