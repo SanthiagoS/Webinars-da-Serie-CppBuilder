@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2026/07/08 10:04:18.000.536,=C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2026/07/08 10:04:18.000.497,=C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>2026/07/08 10:04:32.000.367,=C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>2026/07/08 10:04:32.000.028,=C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2026/08/18 09:43:06.000.732,=C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\FormUnit1.cpp</Transaction>
+    <Transaction>2026/08/18 09:43:07.000.099,=C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>2026/08/18 09:43:07.000.013,=C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.cpp</Transaction>
+    <Transaction>2026/08/18 09:43:44.000.330,C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\FormUnit1.cpp=C:\Users\thiago.silva\Desktop\Conference2026\WebServer\FormUnit1.cpp</Transaction>
+    <Transaction>2026/08/18 09:43:44.000.345,C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.dfm=C:\Users\thiago.silva\Desktop\Conference2026\WebServer\WebModuleUnit1.dfm</Transaction>
+    <Transaction>2026/08/18 09:43:44.000.367,C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Project2.cbproj=C:\Users\thiago.silva\Desktop\Conference2026\WebServer\prjWebServerConference.cbproj</Transaction>
+    <Transaction>2026/08/18 09:43:44.000.344,C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.cpp=C:\Users\thiago.silva\Desktop\Conference2026\WebServer\WebModuleUnit1.cpp</Transaction>
+    <Transaction>2026/08/18 09:43:44.000.344,C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.h=C:\Users\thiago.silva\Desktop\Conference2026\WebServer\WebModuleUnit1.h</Transaction>
+    <Transaction>2026/08/18 09:43:44.000.354,C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Project2PCH1.h=C:\Users\thiago.silva\Desktop\Conference2026\WebServer\prjWebServerConferencePCH1.h</Transaction>
+    <Transaction>2026/08/18 09:43:44.000.330,C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\FormUnit1.dfm=C:\Users\thiago.silva\Desktop\Conference2026\WebServer\FormUnit1.dfm</Transaction>
+    <Transaction>2026/08/18 09:43:44.000.330,C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\FormUnit1.h=C:\Users\thiago.silva\Desktop\Conference2026\WebServer\FormUnit1.h</Transaction>
+    <Transaction>2026/08/18 09:43:54.000.482,C:\Users\thiago.silva\Desktop\Conference2026\WebServer\prjWebServerConference.cbproj=C:\Users\thiago.silva\Desktop\Conference2026\WebServer\prjWebServerConference.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>
