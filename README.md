@@ -10,4 +10,5 @@ Repositório oficial com projetos completos dos webinars de C++.
 - Episódio 4 - Como a Inteligência Artificial está Transformando o Desenvolvimento em C++ - 31/07/2026.
 - Episódio 5 - C++ Experience - Por dentro do projeto RIW2026 em C++ - 28/08/2026.
 - Episódio 6 - Automatizando ERP em Delphi com C++ = Criando funcionalidades para um sistema pronto - 25/09/2026.
-  
+- Episódio 7 - Threads sem mistérios - Do bloqueio à responsividade - na prática com C++ - 30/10/2026.
+
